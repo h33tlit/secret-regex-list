@@ -2,10 +2,9 @@
 List of regex for scraping secret API keys and juicy information.
 
 ```
-REGEXS = {
-		"Cloudinary"  : "cloudinary://.*",
-		"Firebase URL": ".*firebaseio\.com",
-		"Slack Token": "(xox[p|b|o|a]-[0-9]{12}-[0-9]{12}-[0-9]{12}-[a-z0-9]{32})",
+	"Cloudinary"  : "cloudinary://.*",
+	"Firebase URL": ".*firebaseio\.com",
+	"Slack Token": "(xox[p|b|o|a]-[0-9]{12}-[0-9]{12}-[0-9]{12}-[a-z0-9]{32})",
     	"RSA private key": "-----BEGIN RSA PRIVATE KEY-----",
     	"SSH (DSA) private key": "-----BEGIN DSA PRIVATE KEY-----",
     	"SSH (EC) private key": "-----BEGIN EC PRIVATE KEY-----",
@@ -43,6 +42,5 @@ REGEXS = {
     	"Twilio API Key": "SK[0-9a-fA-F]{32}",
     	"Twitter Access Token": "[t|T][w|W][i|I][t|T][t|T][e|E][r|R].*[1-9][0-9]+-[0-9a-zA-Z]{40}",
     	"Twitter OAuth": "[t|T][w|W][i|I][t|T][t|T][e|E][r|R].*['|\"][0-9a-zA-Z]{35,44}['|\"]"
-	}
 
 ```
