@@ -44,3 +44,5 @@ List of regex for scraping secret API keys and juicy information.
     	"Twitter OAuth": "[t|T][w|W][i|I][t|T][t|T][e|E][r|R].*['|\"][0-9a-zA-Z]{35,44}['|\"]"
 
 ```
+
+Check out my other application <a href="https://github.com/h33tlit/Jbin-website-secret-scraper">Jbin website secret scraper</a> where you can use these regexes to scan for sensitive and juicy information.
