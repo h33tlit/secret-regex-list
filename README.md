@@ -45,4 +45,6 @@ List of regex for scraping secret API keys and juicy information.
 
 ```
 
+# Scraper tool
+
 Check out my other application <a href="https://github.com/h33tlit/Jbin-website-secret-scraper">Jbin website secret scraper</a> where you can use these regexes to scan for sensitive and juicy information.
