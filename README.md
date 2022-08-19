@@ -1,5 +1,5 @@
 # Secret Regex List
-List of regex for scraping secret API keys and juicy information.
+List of regex for scraping secret API keys and juicy information. You can directly copy this and put into your python code, some regexes might require three quotes or else it will break the code.
 
 ```
 	"Cloudinary"  : "cloudinary://.*",
